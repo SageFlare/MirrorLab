@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/SageFlare/MirrorLab",
+  "name": "MirrorLab",
+  "description": "A two-storey free-for-all map demonstrating MirrorKit reflection effects and breakable mirror tiles.",
+  "mod_type": "Shared",
+  "authors": [
+    "SageFlare"
+  ],
+  "dependencies": [
+    {
+      "repo_url": "https://github.com/SageFlare/MirrorKit",
+      "version": "0.3.0"
+    }
+  ],
+  "tags": [
+    "Map"
+  ],
+  "maps": [
+    "FFA_MirrorLab"
+  ],
+  "options": {
+    "actor_mod": false
+  }
+}
