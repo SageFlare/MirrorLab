@@ -26,15 +26,15 @@ MirrorLab has an octagonal hub with test rooms across two floors:
 | **C** | Low-cost shiny floor and ceiling materials using screen-space reflections and baked environment fill; includes the dark-centre variant. |
 | **D** | Two partnered mirrors at different angles. |
 | **E** | Cheap breakable baked mirror tiles. The two sides demonstrate snow-wind and no-snow variants. |
-| **F** | Magnified, gappy funhouse mirrors, including a two-sided mirror. |
+| **F** | Magnified, gappy funhouse mirrors; one is backed by a second funhouse mirror facing the back corridor. |
 | **G** | One-level mirror with the stretching-head effect. |
 | **H** | Headless reflection variant. |
-| **I** | One-sided versus two-sided live mirrors and full-body reflection stand-ins. |
-| **J** | A two-sided wall of breakable live-reflection tiles; broken tiles leave walk-through openings. |
+| **I** | Two live mirrors back to back versus a one-sided mirror, and full-body reflection stand-ins. |
+| **J** | A wall of breakable live-reflection tiles showing a mirror on each side; broken tiles leave walk-through openings. |
 | **K** | Ghost reflection: the body disappears while held weapons remain visible. |
 | **L** | A triangle of chained mirrors producing intentionally unusual multi-bounce reflections. |
 
-The stairwell connects both floors. The opening in the upper hub floor drops back to the ground-floor spawn area.
+Everyone spawns in the ground-floor hub; there is no warm-up wait, and respawn waves start once the match is running. The stairwell connects both floors. The opening in the upper hub floor drops back to the ground-floor spawn area.
 
 ## Performance
 
@@ -47,7 +47,7 @@ Measured solo on one PC with a 240 fps cap. These are relative comparisons, not 
 | **B** | Facing wall pair, `Depth` 3 | 120-200 fps |
 | **C** | Screen-space floor and ceiling materials | 150-220 fps |
 | **E** | Baked breakable tiles | 200-300 fps |
-| **J** | Two-sided live tiled wall, `Depth` 1 | About 210 fps |
+| **J** | Live tiled wall (front and back mirrors), `Depth` 1 | About 210 fps |
 
 Live mirrors render the scene once per visible reflection level. Results vary with view angle, visible mirror faces, hardware and the number of players in the captured scene.
 
