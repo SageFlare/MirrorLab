@@ -41,13 +41,6 @@ Everyone spawns in the centre of the ground-floor hub, facing the stairs; there 
 
 MirrorLab uses MirrorKit's default mirror settings. Players can change mirror quality with MirrorKit's launch options (for example `-MirrorQuality=Low` or `-MirrorQuality=Ultra`); hosts can set server values or an optional cap in the map options. See [Mirror quality in the MirrorKit README](https://github.com/SageFlare/MirrorKit#mirror-quality).
 
-## Known limitations
-
-- Sheathed weapons do not appear in first-person reflections. Weapons in hand do appear, and third-person reflections show the full character.
-- The stretching-head variant uses a deliberately stiff head pose.
-- Live mirror tiles show one reflection level.
-- The triangle room can produce unusual non-partner bounces and an occasional brief reflection freeze.
-
 ## License
 
 Original MirrorLab work is licensed under the MIT License. See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
