@@ -39,22 +39,7 @@ Everyone spawns in the centre of the ground-floor hub, facing the stairs; there 
 
 ## Mirror quality
 
-MirrorLab uses MirrorKit's default mirror settings. Players can change mirror quality with MirrorKit's launch options (for example `-MirrorQuality=Low` or `-MirrorQuality=Ultra`); hosts can set server values or an optional cap on the map URL. See the [MirrorKit README](https://github.com/SageFlare/MirrorKit#mirror-quality-for-players-and-servers).
-
-## Performance
-
-Measured solo on one PC with a 240 fps cap. These are relative comparisons, not hardware-independent targets; additional players visible in a live reflection add cost.
-
-| Room | Setup | Measured frame rate |
-| --- | --- | --- |
-| Empty hub | No active mirrors in view | About 240 fps (cap) |
-| **B** | Floor and ceiling tunnel, `Depth` 3 | About 170 fps |
-| **C** | Facing wall pair, `Depth` 3 | 120-200 fps |
-| **D** | Screen-space floor and ceiling materials | 150-220 fps |
-| **I** | Live tiled wall (front and back mirrors), `Depth` 1 | About 210 fps |
-| **M** | Baked breakable tiles | 200-300 fps |
-
-Live mirrors render the scene once per visible reflection level. Results vary with view angle, visible mirror faces, hardware and the number of players in the captured scene.
+MirrorLab uses MirrorKit's default mirror settings. Players can change mirror quality with MirrorKit's launch options (for example `-MirrorQuality=Low` or `-MirrorQuality=Ultra`); hosts can set server values or an optional cap in the map options. See [Mirror quality in the MirrorKit README](https://github.com/SageFlare/MirrorKit#mirror-quality).
 
 ## Known limitations
 
@@ -62,13 +47,6 @@ Live mirrors render the scene once per visible reflection level. Results vary wi
 - The stretching-head variant uses a deliberately stiff head pose.
 - Live mirror tiles show one reflection level.
 - The triangle room can produce unusual non-partner bounces and an occasional brief reflection freeze.
-
-## Changelog
-
-| Version | Changes |
-| --- | --- |
-| 0.5.0 | Rooms relettered clockwise from the stairs (A-M); new room H with independent mirrors; spawns moved to the centre of the hub, facing the stairs, with the quick start of the MirrorMaze tests; back faces are now separate mirrors (MirrorKit 0.6.0 removed the generated back face); the funhouse room's back mirror no longer tilts. Requires MirrorKit 0.6.0. |
-| 0.4.0 | Published map. |
 
 ## License
 
