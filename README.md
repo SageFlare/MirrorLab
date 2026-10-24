@@ -43,4 +43,6 @@ MirrorLab uses MirrorKit's default mirror settings. Players can change mirror qu
 
 ## License
 
-Original MirrorLab work is licensed under the MIT License. See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+Copyright (C) 2026 SageFlare. Original MirrorLab work is licensed under the GNU General Public License v3.0 (GPL-3.0-only): you may use, change and share it, and anything you publish that is built on it must be released under the same license, with its source. See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+
+Releases up to 0.7.0 were published under the MIT License and stay under it.
