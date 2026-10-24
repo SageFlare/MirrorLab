@@ -1,17 +1,21 @@
 {
-  "repo_url": "https://github.com/SageFlare/MirrorLab",
+  "$schema": "https://raw.githubusercontent.com/Chiv2-Community/zero-infra-mod-registry/v1/schemas/mod.schema.json",
   "name": "MirrorLab",
   "description": "A two-storey free-for-all map demonstrating MirrorKit reflection effects and breakable mirror tiles.",
-  "mod_type": "Shared",
   "authors": [
     "SageFlare"
   ],
-  "dependencies": [
+  "repo_url": "https://github.com/SageFlare/MirrorLab",
+  "icon_url": null,
+  "image_urls": [],
+  "mod_dependencies": [
     {
       "repo_url": "https://github.com/SageFlare/MirrorKit",
-      "version": "0.6.0"
+      "version": ">=0.9.0,<1.0.0"
     }
   ],
+  "plugin_dependencies": [],
+  "mod_type": "Shared",
   "tags": [
     "Map"
   ],
