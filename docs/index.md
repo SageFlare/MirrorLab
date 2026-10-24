@@ -4,7 +4,7 @@
 
 MirrorLab is a two-storey free-for-all test map demonstrating the mirrors and reflection effects included in [MirrorKit](https://github.com/SageFlare/MirrorKit). The playable map name is `FFA_MirrorLab`.
 
-Version 0.7.0. Built with [ArgonSDK](https://github.com/Chiv2-Community/ArgonSDK) (Unreal Engine 4.25). Requires MirrorKit 0.10.0 or later.
+Version 1.0.0. Built with [ArgonSDK](https://github.com/Chiv2-Community/ArgonSDK) (Unreal Engine 4.25). Requires MirrorKit 1.0.0 or later.
 
 ## Installation
 
